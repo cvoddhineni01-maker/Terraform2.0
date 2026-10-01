@@ -1,4 +1,6 @@
 {
+  "workbench.iconTheme": "vs-seti",
+  "explorer.compactFolders": false,
   "editor.quickSuggestions": {
     "comments": "off",
     "strings": "off",
