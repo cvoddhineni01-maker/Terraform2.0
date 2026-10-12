@@ -52,7 +52,7 @@ variable "environement"{
 }
 
 variable "instances"{
-    default = ["mongodb", "reddis", "Kafka"]
+    default = ["mongodb", "reddis", "frontend","something"]
 }
 
 variable "domain_name"{

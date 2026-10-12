@@ -1,5 +1,5 @@
 resource "aws_instance" "instance_with_terraform_example" {
-  count = 3
+  count = 4
   ami                    = var.ami_id
   instance_type          = var.environement == "dev" ? "t3.micro": "t2.micro"
   vpc_security_group_ids = [aws_security_group.allow_all_details.id]
